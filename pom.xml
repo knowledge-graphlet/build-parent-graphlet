@@ -75,7 +75,7 @@
         <maven.project-info-reports-plugin.version>3.9.0</maven.project-info-reports-plugin.version>
 
         <!-- Command Line tooling -->
-        <maven.dependency-plugin.version>3.8.1</maven.dependency-plugin.version>
+        <maven.dependency-plugin.version>3.9.0</maven.dependency-plugin.version>
         <maven.assembly-plugin.version>3.7.1</maven.assembly-plugin.version>
         <maven.assembly.version>${maven.assembly-plugin.version}</maven.assembly.version>
         <maven.wrapper-plugin.version>3.3.2</maven.wrapper-plugin.version>
