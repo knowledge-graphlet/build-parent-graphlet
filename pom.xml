@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xmlns="http://maven.apache.org/POM/4.0.0"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
-    <modelVersion>4.0.0</modelVersion>
+<project xmlns="http://maven.apache.org/POM/4.1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  xsi:schemaLocation="http://maven.apache.org/POM/4.1.0 https://maven.apache.org/xsd/maven-4.1.0.xsd">
+    <modelVersion>4.1.0</modelVersion>
     <groupId>dev.ikm.build</groupId>
     <artifactId>parent</artifactId>
     <version>1.67.0-mvn-model-4.1-SNAPSHOT</version>
@@ -107,9 +105,9 @@
         <sonar.host.url>https://sonarcloud.io</sonar.host.url>
     </properties>
 
-    <modules>
-        <module>java-parent</module>
-    </modules>
+    <subprojects>
+        <subproject>java-parent</subproject>
+    </subprojects>
 
     <build>
         <pluginManagement>
